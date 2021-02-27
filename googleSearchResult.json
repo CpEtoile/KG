@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "EntitySearchResult": "goog:EntitySearchResult",
+    "@vocab": "http://schema.org/",
+    "goog": "http://schema.googleapis.com/",
+    "kg": "http://g.co/kg",
+    "detailedDescription": "goog:detailedDescription",
+    "resultScore": "goog:resultScore"
+  },
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "resultScore": 5.6231493949890137,
+      "result": {
+        "description": "Country in Central Asia",
+        "detailedDescription": {
+          "url": "https://en.wikipedia.org/wiki/Kazakhstan",
+          "articleBody": "Kazakhstan, officially the Republic of Kazakhstan, is a transcontinental country mainly located in Central Asia with a smaller portion west of the Ural River in Eastern Europe. ",
+          "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+        },
+        "@id": "kg:/m/047lj",
+        "@type": [
+          "Country",
+          "Place",
+          "Thing",
+          "AdministrativeArea"
+        ],
+        "url": "http://en.government.kz/index.php/en/",
+        "name": "Kazakhstan"
+      },
+      "@type": "EntitySearchResult"
+    },
+    {
+      "resultScore": 3.5183835029602051,
+      "result": {
+        "detailedDescription": {
+          "url": "https://en.wikipedia.org/wiki/Borat",
+          "articleBody": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan is a 2006 British-American mockumentary comedy film directed by Larry Charles and starring Sacha Baron Cohen. ",
+          "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+        },
+        "name": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+        "description": "2006 film",
+        "url": "http://www.boratmovie.com/",
+        "@type": [
+          "Thing",
+          "Movie"
+        ],
+        "@id": "kg:/m/0dt8xq"
+      },
+      "@type": "EntitySearchResult"
+    }
+  ]
+}
